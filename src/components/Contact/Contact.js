@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Contact.css";
 
 
@@ -54,6 +55,11 @@ const Contact = () => {
                                     id=""
                                     placeholder="Confirm Password"
                                 />
+                            </div>
+                            <div className="my-3">
+                                <Link to="/contact">
+                                    <button className="btn btn-outline-secondary btn-lg">Submit</button>
+                                </Link>
                             </div>
                         </form>
                     </div>
