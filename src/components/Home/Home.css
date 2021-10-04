@@ -1,0 +1,6 @@
+.bg {
+    background-image: url('../../images/header_banner.jpg');
+    padding: 300px 0;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
