@@ -2,14 +2,19 @@ import React from "react";
 import teacherImageOne from "../../images/teacher-1.png";
 import teacherImageTwo from "../../images/teacher-2.png";
 import teacherImageThree from "../../images/teacher-3.png";
-import "./Teacher.css";
+
+
 
 const Teacher = () => {
     return (
         <div className="container">
+
+            {/* teacher text */}
             <h2 className="text-center my-5 pb-4 display-3">
                 Our Classified Teacher
             </h2>
+
+            {/* teacher image */}
             <div className="row text-center">
                 <div className="col-md-4 col-12">
                     <img className="rounded shadow p-5" src={teacherImageOne} alt="" />
@@ -26,5 +31,7 @@ const Teacher = () => {
         </div>
     );
 };
+
+
 
 export default Teacher;

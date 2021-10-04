@@ -3,11 +3,15 @@ import { Link } from "react-router-dom";
 import headerLogo from "../../images/header_logo.png";
 import "./Header.css";
 
+
+
 const Header = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-md navbar__bg navbar-light py-3">
                 <div className="container">
+
+                    {/* header logo */}
                     <Link className="navbar-brand" to="/home">
                         <img
                             className="header__img"
@@ -15,6 +19,8 @@ const Header = () => {
                             alt="Dancing School header logo"
                         />
                     </Link>
+
+
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -26,29 +32,30 @@ const Header = () => {
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
+
+                    {/* header link */}
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto pt-2">
                             <li className="nav-item">
                                 <Link
-                                    className="nav-link active header__nav"
-                                    aria-current="page"
+                                    className="nav-link fs-5 header__nav"
                                     to="/home"
                                 >
                                     Home
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link header__nav" to="/about">
+                                <Link className="nav-link fs-5 header__nav" to="/about">
                                     About
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link header__nav" to="/services">
+                                <Link className="nav-link fs-5 header__nav" to="/services">
                                     Services
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link header__nav" to="/contact">
+                                <Link className="nav-link fs-5 header__nav" to="/contact">
                                     Contact
                                 </Link>
                             </li>
@@ -59,5 +66,7 @@ const Header = () => {
         </div>
     );
 };
+
+
 
 export default Header;

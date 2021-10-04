@@ -5,9 +5,12 @@ import aboutImgTwo from "../../images/about_2.jpg";
 import aboutImgThree from "../../images/about_3.jpg";
 import "./About.css";
 
+
+
 const About = () => {
     return (
         <div className="pt-2">
+            {/* about section upper text */}
             <h2 className="text-center pt-5 mt-5 display-5 fw-bold">
                 WELCOME TO OUR DANCE SCHOOL
             </h2>
@@ -19,6 +22,7 @@ const About = () => {
                 </p>
             </div>
 
+            {/* about section image */}
             <div className="d-flex flex-sm-row flex-column justify-content-center">
                 <div className="about__img">
                     <img
@@ -43,6 +47,7 @@ const About = () => {
                 </div>
             </div>
 
+            {/* about section footer text */}
             <div className="text-center px-md-5 px-1 mx-md-5 pt-5">
                 <p className="px-md-5 px-1 mx-md-5 text-muted">
                     We are a professional in ballet, kids ballet, tap, freestyle & modern
@@ -52,6 +57,8 @@ const About = () => {
                     experienced professional teachers.
                 </p>
             </div>
+
+            {/* button */}
             <div className="text-center pb-5 mb-5">
                 <Link
                     to="/about"
@@ -63,5 +70,7 @@ const About = () => {
         </div>
     );
 };
+
+
 
 export default About;

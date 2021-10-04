@@ -1,7 +1,6 @@
-.bg {
+.home__bg {
     background: url('../../images/header_banner.jpg'), rgba(165, 149, 119, 0.25);
     background-blend-mode: multiply;
     padding: 220px 0;
     background-size: cover;
-    /* background-attachment: fixed; */
 }

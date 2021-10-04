@@ -1,12 +1,17 @@
 import React from "react";
 import "./Contact.css";
 
+
+
 const Contact = () => {
     return (
         <div className="contact__bg">
             <div className="container">
                 <div className="row">
+                    
                     <div className="col-md-8 col-12"></div>
+
+                    {/* form section */}
                     <div className="col-md-4 col-12 pt-5 mt-5">
                         <form
                             action=""
@@ -57,5 +62,7 @@ const Contact = () => {
         </div>
     );
 };
+
+
 
 export default Contact;
