@@ -1,0 +1,6 @@
+.contact__bg {
+    background: url('../../images/contact_image.jpg');
+    height: 850px;
+    background-size: cover;
+    background-attachment: fixed;
+}
