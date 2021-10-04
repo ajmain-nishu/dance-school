@@ -1,0 +1,9 @@
+.homeservice__img {
+    height: 135px;
+    width: 135px;
+    border: 3px solid lightgrey;
+}
+
+.homeservice__card {
+    margin-top: -55px;
+}

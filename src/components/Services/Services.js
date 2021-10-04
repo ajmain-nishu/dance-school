@@ -1,27 +1,25 @@
-import React, { useEffect, useState } from 'react';
-import Service from '../Service/Service';
+import React, { useEffect, useState } from "react";
+import Service from "../Service/Service";
 
 const Services = () => {
-    const [services, setServices] = useState([])
+    const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('./services.json')
-        .then(res => res.json())
-        .then(data => setServices(data))
-    }, [])
+        fetch("./services.json")
+            .then((res) => res.json())
+            .then((data) => setServices(data));
+    }, []);
     return (
         <div>
-            <h1 className="text-center">Our Services</h1>
+            <h1 className="text-center display-4 py-5">Our Services</h1>
             <div className="container">
                 <div className="col-12">
                     <div className="row">
-                    {
-                    services.map(service => <Service service={service}></Service>)
-                    }
+                        {services.map((service) => (
+                            <Service key={service.id} service={service}></Service>
+                        ))}
                     </div>
-                
                 </div>
             </div>
-            
         </div>
     );
 };

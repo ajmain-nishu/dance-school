@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Ballet",
+        "img": "https://lh3.googleusercontent.com/proxy/DrqaDUsgIFdb3pEawFnn82sDjhlDPcJNegWoLdlCq7kLlS_rn2Hc5l-5CMLOR1SNfUjEYw_q5OmbZaA-7HeWVdd0x8XEFfT8GN0-VE9yyjNsqZPrRfpkB7koc1fYi8jinHY1M64fdNxY7sQIPQ",
+        "price": 450,
+        "duration": "2 Months"
+    },
+    {
+        "id": 6,
+        "name": "Tap",
+        "img": "https://i.pinimg.com/originals/05/20/61/0520619e4187efd8a659408892f3fcbf.jpg",
+        "price": 150,
+        "duration": "2 Months"
+    },
+    {
+        "id": 4,
+        "name": "Hip Hop",
+        "img": "https://i.pinimg.com/736x/5a/d0/4f/5ad04f302429d5aa6dbbff58c09e21ce.jpg",
+        "price": 970,
+        "duration": "2 Months"
+    },
+    {
+        "id": 5,
+        "name": "Jazz",
+        "img": "https://ichef.bbci.co.uk/images/ic/640x360/p05n7hyj.jpg",
+        "price": 430,
+        "duration": "2 Months"
+    }
+]

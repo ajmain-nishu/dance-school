@@ -6,3 +6,7 @@
 .header__img {
     height: 45px;
 }
+
+.navbar__bg {
+    background-color: rgb(238, 238, 238);
+}

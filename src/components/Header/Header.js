@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-light py-3">
+            <nav className="navbar navbar-expand-md navbar__bg py-3">
                 <div className="container">
                     <Link className="navbar-brand" to="/home">
                         <img className="header__img" src={headerLogo} alt="Dancing School header logo" />
