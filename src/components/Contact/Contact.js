@@ -25,7 +25,7 @@ const Contact = () => {
                                     className="form-control form-control-lg"
                                     type="text"
                                     name=""
-                                    id=""
+                                    id="username"
                                     placeholder="Username"
                                 />
                             </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                                     className="form-control form-control-lg"
                                     type="email"
                                     name=""
-                                    id=""
+                                    id="email"
                                     placeholder="Email"
                                 />
                             </div>
@@ -43,7 +43,7 @@ const Contact = () => {
                                     className="form-control form-control-lg"
                                     type="password"
                                     name=""
-                                    id=""
+                                    id="password"
                                     placeholder="Password"
                                 />
                             </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                                     className="form-control form-control-lg"
                                     type="password"
                                     name=""
-                                    id=""
+                                    id="con-password"
                                     placeholder="Confirm Password"
                                 />
                             </div>
